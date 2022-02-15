@@ -1,0 +1,8 @@
+.bg_color {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.padding_x {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
