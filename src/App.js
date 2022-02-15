@@ -15,7 +15,7 @@ function App() {
         <Router>
             <Navbar />
 {                <Switch>
-                    <Route exact path="/mario.granados.github.io">
+                    <Route exact path="/">
                         <HomePage/>
                     </Route>
                     <Route exact path="/Portfolio">
