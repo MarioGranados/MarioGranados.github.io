@@ -3,7 +3,7 @@ function Footer() {
 
     function handleSubmit(e) {
         e.preventDefault()
-        let name = firstName + ' ' + lastName;
+        alert("looks like we've encountered a problem, please try again later! ")
     }
 
     const [firstName, setFirstName] = useState('');
