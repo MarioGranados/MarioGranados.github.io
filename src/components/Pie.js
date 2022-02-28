@@ -4,8 +4,8 @@ import Chart from 'react-google-charts'
 const pieData = [
     ['Programming', 'level'],
     ['JavaScript', 100],
-    ['C++', 30],
-    ['Java', 20],
+    ['C++', 40],
+    ['Java', 40],
     ['MySQL', 10],
     ['HTML', 100],
     ['CSS', 100]

@@ -6,7 +6,7 @@ function Portfolio() {
         <>
             <div className="jumbotron light_bg mb-0">
                 <h3 className="text-center display-4">Portfolio</h3>
-                <div className="container" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
+                <div className="container-fluid" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
                     <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
