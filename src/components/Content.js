@@ -26,9 +26,9 @@ function Content({lgBackground, title, contentText, picture, img, alt, left, tab
 
     function hasImg(picture) {
         if (picture) {
-            return (<div className='container'><img src={img} style={heightAndWidth} alt={alt}/></div>)
+            return (<div className='container-fluid'><img src={img} style={heightAndWidth} alt={alt}/></div>)
         } else {
-            return (<div className='container' style={borderRadius} id='chart1'>{table}</div>)
+            return (<div className='container-fluid' style={borderRadius} id='chart1'>{table}</div>)
         }
     }
 
@@ -73,13 +73,16 @@ function Content({lgBackground, title, contentText, picture, img, alt, left, tab
 
     return (
         <>
-            <div className={lgBackground ? 'light_bg jumbotron my-0' : "blue_bg text-white jumbotron my-0"} id={'hero'}>
-                <div className="my-0">
-                    <div className="row align-items-center padding_x">
-                        {contentLeft(left)}
+            <div className={lgBackground ? 'light_bg container-fluid my-0 padding_x' : "blue_bg text-white container-fluid my-0 padding_x"}>
+                <div className="container">
+                    <div className="my-0">
+                        <div className="row align-items-center padding_x">
+                            {contentLeft(left)}
+                        </div>
                     </div>
                 </div>
             </div>
+
         </>
     );
 }
