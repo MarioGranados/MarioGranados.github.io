@@ -1,14 +1,17 @@
-import MainSection from "./pages/MainSection/MainSection";
+import WelcomePage from "./WelcomePage";
+import Terminal from "./Terminal";
 
-function Hero() {
+const Hero = () => {
     return (
         <>
-            <div className="container-fluid vh-100 justify-content-center align-content-center d-flex bg_image">
-                <div className="jumbotron-fluid justify-content-center align-content-center align-items-center d-flex">
-                    <MainSection/>
+            <div className="bg-dark">
+                <Terminal/>
+                <div className="container">
+                    <WelcomePage/>
                 </div>
             </div>
         </>
     );
+
 }
 export default Hero;
