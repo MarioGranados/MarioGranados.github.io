@@ -1,3 +1,5 @@
+import "./Terminal.css";
+
 let border = {
     border: "8px solid green",
 }

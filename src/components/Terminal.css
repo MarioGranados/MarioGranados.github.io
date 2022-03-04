@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+:root{
+    --t-bg: rgba(25, 44, 56, 0.92);
+    --t-bg-2: rgba(29, 55, 71, 0.24)
+}
+* {
+    font-family: Ubuntu mono, "Ubuntu";
+}
+
+.container-terminal {
+    margin: auto;
+    width: 50%;
+}
+
+.terminal {
+    background:  linear-gradient(var(--t-bg), var(--t-bg-2));
+    height: 70vh;
+    border-radius: 2px;
+}
+
+.terminal-header {
+    background-color: rgba(71, 136, 160, 0.4);
+}
+
+.t-text {
+    color: seagreen;
+}
+
+
