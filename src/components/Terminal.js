@@ -17,7 +17,7 @@ const Terminal = () => {
                             </div>
                         </div>
                     </form>
-                    <p className="text-success">{name.length > 3 ? `C:\\\ Welcome ${name} Nice To Meet You` :  "" }</p>
+                    <p className="text-success">{name.length > 3 ? `guest@user-MBP % Welcome ${name} Nice To Meet You` :  "" }</p>
                     {name.length > 3 ?
                         <div className="form-group row">
                         <label htmlFor="input" className="text-success">$: Where would you like to go? </label>
