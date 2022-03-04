@@ -24,7 +24,8 @@ const Terminal = () => {
                         <div className="px-5">
                             <p className='text-success lead-text'>$: Home Portfolio Contact About </p>
                             <input type="text" className="form-control bg-dark border-success text-success" value={input} onChange={e => setInput(e.target.value)}/>
-                            {input.startsWith("cd ") ? input : 'cd  ' + input}
+
+                            <p className="text-success">{input.startsWith("cd ") ? input : 'cd  ' + input}</p>
                         </div>
                     </div> : ''}
                 </div>
