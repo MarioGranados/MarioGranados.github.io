@@ -4,13 +4,21 @@ import 'aos/dist/aos.css';
 import Hero from "./components/Hero";
 import './App.css';
 import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
+import Terminal from "./components/Terminal";
+import {experience, about} from "./components/Data";
 
 function App() {
     Aos.init();
     return (
         <>
-            <Hero/>
-            <Footer/>
+            <div className='main_bg'>
+                <Terminal/>
+                <Hero {...experience}/>
+                <Hero {...about}/>
+                <Portfolio/>
+                <Footer/>
+            </div>
         </>
     );
 }
