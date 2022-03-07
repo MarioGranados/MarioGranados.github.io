@@ -1,15 +1,14 @@
 const Loading = () => {
     const nerdWords = ['config/', 'installing/', 'script/', 'running/', 'batch/', 'dump/', 'initialize/', 'GUI_IO/'];
     const randomWords = ['machine', 'x', 'window', 'nano_bots', 'lamas', 'potatoes', 'cookies', 'max_width'];
+    let current = '';
 
-        for (let i = 0; i < randomWords.length; i++) {
-            setInterval(() => {
-                console.log(nerdWords[i] + randomWords[i] + '...');
-            }, 2000)
-        }
+    Math.random() * 10
+        current = "c://" + nerdWords + randomWords;
 
     return(
         <>
+            {current}
         </>
     )
 }
