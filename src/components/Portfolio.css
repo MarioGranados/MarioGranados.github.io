@@ -23,3 +23,9 @@ img {
     height: 60vh;
     width: 800px;
 }
+
+
+/*test*/
+.gridscroll img:hover {
+    background-color: #1d1e2c;
+}

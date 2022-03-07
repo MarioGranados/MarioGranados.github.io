@@ -10,8 +10,6 @@ const Terminal = () => {
         window.location.href = `https://www.${siteName}.com`;
     }
 
-
-
     const cdTo = (input) => {
         switch (input.toLowerCase()) {
             case 'home':
@@ -46,7 +44,7 @@ const Terminal = () => {
                     </div>
                     <form>
                         <div className="form-group">
-                            <label htmlFor="name" className="text-success"><span className='text-muted'>guest@userGuest~ %</span>Enter
+                            <label htmlFor="name" className="text-success"><span className='red-text'>guest<span className="golden-text">@userGuest</span>~ %</span>Enter
                                 Your First
                                 Name: </label>
                             <div className="px-5">
@@ -57,13 +55,13 @@ const Terminal = () => {
                         </div>
 
                         {name.length >= 2 ? <p className='text-success'><span
-                            className='text-muted'>guest@user{name}~ %</span> Welcome {name} Nice To Meet You
+                            className='red-text'>guest<span className='golden-text'>@user{name}</span>~ %</span> Welcome {name} Nice To Meet You
                         </p> : null}
 
                         {name.length >= 2 ?
                             <div className="form-group">
                                 <label htmlFor="input" className="text-success"><span
-                                    className='text-muted'>$:</span> type 'help' for a list of available
+                                    className='golden-text'>$:</span> type 'help' for a list of available
                                     commands</label>
                                 <div className="px-5">
                                     <input type="text" className="form-control border-success text-success terminal-bg"

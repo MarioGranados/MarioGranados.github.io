@@ -1,5 +1,16 @@
 :root {
-  --main-bg: rgb(0,0,0)
+  --main-bg: rgba(0, 0, 0, 0.7);
+  --golden-text: rgb(203, 146, 72);
+  --red-text: rgb(184, 30, 81);
+
+}
+
+.red-text {
+  color: var(--red-text);
+}
+
+.golden-text {
+  color: var(--golden-text);
 }
 
 * {

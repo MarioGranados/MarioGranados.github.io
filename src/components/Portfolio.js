@@ -9,9 +9,9 @@ const Portfolio = () => {
         <>
             <div className="scroll-container">
                 <div className="gridscroll">
-                    <img src={WeatherApp} alt=""/>
-                    <img src={Konami} alt=""/>
-                    <img src={CoffeeProject} alt=""/>
+                    <img src={WeatherApp} alt="Weather Map App Preview"/>
+                    <img src={Konami} alt="Konami App Preview"/>
+                    <img src={CoffeeProject} alt="Coffee Project App Preview"/>
                 </div>
             </div>
 
