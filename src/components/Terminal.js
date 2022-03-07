@@ -71,7 +71,7 @@ const Terminal = () => {
                                     }
                                     }/>
                                     {input.toLowerCase() === 'help' || input.toLowerCase() === 'ls' ?
-                                        <p className='text-success'><span className='text-danger'>type any available command:</span><br/> home<br/>portfolio<br/>about<br/>contact
+                                        <p className='text-success'><span className='text-danger'>type any available command:</span><br/> home<br/>portfolio<br/>about<br/>contact<br/>LinkedIn<br/>Github<br/>
                                         </p> : null}
 
                                     <p className="text-success">{input.startsWith("cd ") ? input : 'cd  ' + input} </p>
@@ -84,8 +84,7 @@ const Terminal = () => {
 
 
         </>
-    )
-        ;
+    );
 
 }
 export default Terminal;

@@ -7,18 +7,20 @@ import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Terminal from "./components/Terminal";
 import {experience, about} from "./components/Data";
+import Loading from "./components/Loading";
 
 function App() {
     Aos.init();
     return (
         <>
-            <div className='main_bg'>
+                <Loading/>
+{/*            <div className='main_bg'>
                 <Terminal/>
-                <Hero {...experience}/>
-                <Hero {...about}/>
+                <Hero {...experience} />
+                <Hero {...about} />
                 <Portfolio/>
                 <Footer/>
-            </div>
+            </div>*/}
         </>
     );
 }

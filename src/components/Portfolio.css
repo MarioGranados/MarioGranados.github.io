@@ -5,7 +5,7 @@
 .scroll-container{
     overflow: auto;
     white-space: nowrap;
-    padding: 10px 20px 5px 20px;
+    padding: 20px 20px 5px 20px;
     background: transparent;
     height: 100%;
     border-radius:15px;
@@ -17,6 +17,7 @@
 
 .gridscroll img {
     margin-right: 50px;
+    transition: 250ms;
 }
 
 img {
@@ -27,5 +28,6 @@ img {
 
 /*test*/
 .gridscroll img:hover {
-    background-color: #1d1e2c;
+    cursor: pointer;
+    transition: 250ms;
 }
