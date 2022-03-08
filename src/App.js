@@ -13,14 +13,13 @@ function App() {
     Aos.init();
     return (
         <>
-                <Loading/>
-{/*            <div className='main_bg'>
+            <div className='main_bg'>
                 <Terminal/>
                 <Hero {...experience} />
                 <Hero {...about} />
                 <Portfolio/>
                 <Footer/>
-            </div>*/}
+            </div>
         </>
     );
 }

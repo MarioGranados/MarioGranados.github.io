@@ -2,6 +2,15 @@ import {useState} from "react";
 import "./Terminal.css"
 import {Link} from "react-router-dom";
 
+let enter = (e) => {
+    if(e.type === "\u00E9") {
+        console.log("hello")
+    }
+}
+window.addEventListener("keydown", e => {
+    enter(e);
+})
+
 const Terminal = () => {
     const [name, setName] = useState("");
     const [input, setInput] = useState("");

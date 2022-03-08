@@ -1,8 +1,4 @@
 import React, {useState} from "react";
-
-let fontColor = {
-    color: "black"
-}
 function Footer() {
 
     function handleSubmit(e) {
