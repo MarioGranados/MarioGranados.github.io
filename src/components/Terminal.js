@@ -49,7 +49,7 @@ const Terminal = () => {
             <div className="container-terminal py-5">
                 <div className="card terminal">
                     <div className="card-header terminal-header">
-                        Terminal
+                        @Mario_Granados
                     </div>
                     <form>
                         <div className="form-group">

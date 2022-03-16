@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio";
 import Terminal from "./components/Terminal";
 import {experience, about} from "./components/Data";
 import Loading from "./components/Loading";
+import WelcomePage from "./components/WelcomePage";
 
 function App() {
     Aos.init();
@@ -15,6 +16,7 @@ function App() {
         <>
             <div className='main_bg'>
                 <Terminal/>
+                <WelcomePage/>
                 <Hero {...experience} />
                 <Hero {...about} />
                 <Portfolio/>

@@ -5,7 +5,7 @@
 .scroll-container{
     overflow: auto;
     white-space: nowrap;
-    padding: 20px 20px 5px 20px;
+    padding: 30px 20px 20px 70px;
     background: transparent;
     height: 100%;
     border-radius:15px;
@@ -13,6 +13,7 @@
 
 .gridscroll{
     display:inline-block;
+    width: 400vh;
 }
 
 .gridscroll img {
@@ -20,14 +21,27 @@
     transition: 250ms;
 }
 
-img {
-    height: 60vh;
-    width: 800px;
+.scroll-container .card {
+    white-space: normal;
+    transition: 300ms;
 }
 
+.scroll-container .card:hover{
+    background-color: #000;
+    color: green;
+    transition: 300ms;
+    opacity: .84;
+}
 
-/*test*/
-.gridscroll img:hover {
-    cursor: pointer;
-    transition: 250ms;
+img {
+    height: 50vh;
+}
+
+.card p {
+    color: black;
+    text-wrap: normal;
+}
+
+.card-title {
+    color: black;
 }

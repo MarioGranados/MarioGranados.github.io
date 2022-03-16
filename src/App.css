@@ -1,5 +1,6 @@
 :root {
-  --main-bg: rgba(0, 0, 0, 0.7);
+  --main-bg: rgba(4, 13, 53, 0.95);
+  --main-bg-2: rgba(0, 72, 105, 0.94);
   --golden-text: rgb(203, 146, 72);
   --red-text: rgb(184, 30, 81);
 
@@ -14,48 +15,14 @@
 }
 
 * {
-  color: white;
+  color: #03c458;
 }
 
 .main_bg {
-  background-color: var(--main-bg);
+  background-image: linear-gradient(var(--main-bg), var(--main-bg-2));
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*============*/
+.green_border {
+  border: 8px solid #03c458;
 }
