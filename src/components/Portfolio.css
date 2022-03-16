@@ -7,7 +7,6 @@
     white-space: nowrap;
     padding: 30px 20px 20px 70px;
     background: transparent;
-    height: 100%;
     border-radius:15px;
 }
 
@@ -26,16 +25,13 @@
     transition: 300ms;
 }
 
-.scroll-container .card:hover{
+/*.scroll-container .card:hover{
     background-color: #000;
     color: green;
     transition: 300ms;
     opacity: .84;
-}
+}*/
 
-img {
-    height: 50vh;
-}
 
 .card p {
     color: black;
@@ -44,4 +40,10 @@ img {
 
 .card-title {
     color: black;
+}
+.card_active {
+    background-color: #000;
+    color: green;
+    transition: 300ms;
+    opacity: .84;
 }

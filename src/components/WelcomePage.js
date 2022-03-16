@@ -9,7 +9,7 @@ const WelcomePage = () => {
 
                 <p className="lead-text text-center ">I like to solve my problems with code</p>
                 <div className="justify-content-center align-items-center d-flex">
-                    <button className="btn btn-large btn-primary mb-4">View My Work</button>
+                    <button className="btn btn-large btn-outline-light mb-4">View My Work</button>
                 </div>
             </div>
         </>

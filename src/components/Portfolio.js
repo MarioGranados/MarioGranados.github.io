@@ -8,26 +8,38 @@ import {useState} from "react";
 /*this code was modified from the original source https://codepen.io/adityajanuardi/pen/YzydaVj*/
 const Portfolio = () => {
 
-    const [active, setActive] = useState(false);
+    const [active, setActive] = useState({
+        activeObj: null,
+        obj: [{id: 1}, {id: 2}, {id: 3}],
+    });
 
-    let hoverStyle = {
-        height: '65vh'
+    let toggleActive = (index) => {
+        setActive({...active, setActive: active.obj[index]})
     }
 
 
-    let act = () => {
-        setActive(true);
+    let arr = [active, active, active];
+
+    let act = (id) => {
+
+        for(let i = 0; i < arr.length; i++) {
+            arr[i] = setActive(false);
+        }
+        //setActive(true);
+        return id;
     }
-    let dest = () => {
-        setActive(false);
+    let dest = (id) => {
+        arr[id] = setActive(false);
+        //setActive(false);
+        return id;
     }
-    
+
     return (
         <>
             <div className="scroll-container">
                 <div className="gridscroll">
                     <div className="card-deck">
-                        <div className="card">
+                        <div className={arr[0] ? "card card_active" : "card"} onMouseOut={() => {dest(0)}} onMouseEnter={() => {act(0)}}>
                             <img src={WeatherApp} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
@@ -36,7 +48,7 @@ const Portfolio = () => {
                                 <a href="#" className="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className={arr[1] ? "card card_active" : "card"} onMouseOut={() => {dest(1)}} onMouseEnter={() => {act(1)}}>
                             <img src={Konami} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
@@ -57,7 +69,7 @@ const Portfolio = () => {
                     </div>
 
 
-{/*                    <img onMouseOut={dest} onMouseEnter={act} src={WeatherApp} alt="Weather Map App Preview"
+                    {/*                    <img onMouseOut={dest} onMouseEnter={act} src={WeatherApp} alt="Weather Map App Preview"
                          style={active ? hoverStyle : null}
                     />
                     <img src={Konami} alt="Konami App Preview"
