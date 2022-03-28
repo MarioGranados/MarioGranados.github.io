@@ -7,6 +7,7 @@ const GridScroll = () => {
 
     return (
         <>
+            <h3 className='text-center display-4'>Portfolio</h3>
             <div className="scroll-container">
                 <div className="gridscroll">
                     <div className="card-deck">

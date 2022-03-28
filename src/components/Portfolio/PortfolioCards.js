@@ -3,7 +3,7 @@ import './PortfolioCards.css'
 const PortfolioCards = ({title, cardText, img, btnLink, btnLabel }) => {
     return (
         <>
-            <div className="card">
+            <div className="card glass_bg">
                 <img src={img} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title text-center">{title}</h5>

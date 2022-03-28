@@ -2,15 +2,6 @@ import {useState} from "react";
 import "./Terminal.css"
 import {Link} from "react-router-dom";
 
-let enter = (e) => {
-    if(e.type === "\u00E9") {
-        console.log("hello")
-    }
-}
-window.addEventListener("keydown", e => {
-    enter(e);
-})
-
 const Terminal = () => {
     const [name, setName] = useState("");
     const [input, setInput] = useState("");
@@ -49,6 +40,9 @@ const Terminal = () => {
             <div className="container-terminal py-5">
                 <div className="card terminal">
                     <div className="card-header terminal-header">
+                        <span className='circle_btns circle_exit'></span>
+                        <span className='circle_btns circle_minimize'></span>
+                        <span className='circle_btns circle_default'></span>
                         @Mario_Granados
                     </div>
                     <form>

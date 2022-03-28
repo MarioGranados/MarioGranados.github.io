@@ -32,4 +32,41 @@
     color: seagreen;
 }
 
+.circle_btns {
+    border-radius: 50%;
+    color: grey;
+    padding: 0 5px;
+    font-weight: bolder;
+    opacity:.77;
+    transition: 200ms;
+}
+
+.circle_btns:hover {
+    opacity: 1;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.circle_exit {
+    background-color: red;
+    border: solid 1px #630000;
+    margin-right: 5px;
+}
+
+.circle_minimize {
+    background-color: yellow;
+    border: 1px solid #4d4d00;
+    margin-right: 5px;
+}
+.circle_default {
+    background-color: #515151;
+    border: 1px solid #272727;
+    margin-right: 5px;
+    opacity: .8
+}
+.circle_default:hover {
+    cursor: unset;
+}
+
+
 

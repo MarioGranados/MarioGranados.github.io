@@ -1,5 +1,12 @@
 
-let Hero = ({inverse, img, alt, title, content}) => {
+
+const Hero = ({inverse, img, alt, title, content}) => {
+
+    let imgStyling = {
+        width: '100%',
+        height: '100%',
+        borderRadius: '5px',
+    }
 
     let cols = () => {
         if (inverse) {
@@ -8,14 +15,14 @@ let Hero = ({inverse, img, alt, title, content}) => {
                     {content}
                 </div>
                 <div className="col text-success">
-                    <img src={img} alt={alt}/>
+                    <img style={imgStyling} src={img} alt={alt}/>
                 </div>
             </>);
         } else {
             return (
                 <>
                 <div className="col text-success">
-                    <img src={img} alt={alt}/>
+                    <img style={imgStyling} src={img} alt={alt}/>
                 </div>
                 <div className="col text-success">
                     {content}
