@@ -1,0 +1,14 @@
+.card p {
+    color: black;
+    text-wrap: normal;
+}
+
+.card-title {
+    color: black;
+}
+.card_active {
+    background-color: #000;
+    color: green;
+    transition: 300ms;
+    opacity: .84;
+}

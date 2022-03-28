@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import Hero from "./components/Hero";
 import './App.css';
 import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
+import GridScroll from "./components/Portfolio/GridScroll";
 import Terminal from "./components/Terminal";
 import {experience, about} from "./components/Data";
 import Loading from "./components/Loading";
@@ -19,7 +19,7 @@ function App() {
                 <WelcomePage/>
                 <Hero {...experience} />
                 <Hero {...about} />
-                <Portfolio/>
+                <GridScroll/>
                 <Footer/>
             </div>
         </>
