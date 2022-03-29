@@ -4,7 +4,7 @@ import Coffee from '../../img/CoffeeProject.png';
 
 export const obj1 = {
     title: 'Konami Project',
-    cardText: 'Desc goes here ....',
+    cardText: 'lorem a;lsdkfj sdakfj aosdkfj a;dskjf ',
     img: Konami,
     btnLink: '#',
     btnLabel: 'Check out Konami Project',

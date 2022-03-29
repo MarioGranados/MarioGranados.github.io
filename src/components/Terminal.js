@@ -10,6 +10,12 @@ const Terminal = () => {
         window.location.href = `https://www.${siteName}.com`;
     }
 
+    window.addEventListener("keypress", (e) => {
+        if(e.key === 'Enter') {
+            console.log(true);
+        }
+    })
+
     const cdTo = (input) => {
         switch (input.toLowerCase()) {
             case 'home':
@@ -19,7 +25,7 @@ const Terminal = () => {
                 https('facebook');
                 break;
             case 'about' :
-               https('linkedin');
+                https('linkedin');
                 break;
             case 'contact':
                 https('github');
@@ -47,7 +53,8 @@ const Terminal = () => {
                     </div>
                     <form>
                         <div className="form-group">
-                            <label htmlFor="name" className="text-success"><span className='red-text'>guest<span className="golden-text">@userGuest</span>~ %</span>Enter
+                            <label htmlFor="name" className="text-success"><span className='red-text'>guest<span
+                                className="golden-text">@userGuest</span>~ %</span>Enter
                                 Your First
                                 Name: </label>
                             <div className="px-5">
@@ -58,7 +65,8 @@ const Terminal = () => {
                         </div>
 
                         {name.length >= 2 ? <p className='text-success'><span
-                            className='red-text'>guest<span className='golden-text'>@user{name}</span>~ %</span> Welcome {name} Nice To Meet You
+                            className='red-text'>guest<span
+                            className='golden-text'>@user{name}</span>~ %</span> Welcome {name} Nice To Meet You
                         </p> : null}
 
                         {name.length >= 2 ?
