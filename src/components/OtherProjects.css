@@ -1,0 +1,37 @@
+.other_projects {
+    background-color: var(--dark);
+}
+.cards {
+    background-color: var(--card_bg);
+    border: 1px solid var(--card_bg);
+    padding: 5vh 5vh;
+    width: 15rem;
+    min-height: 15rem;
+    color: var(--light);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 18px;
+    transition: 300ms;
+}
+.cards:hover {
+    transform: translateY(-20px);
+    border: 1px solid var(--light);
+}
+
+.card_title {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.soft_text {
+    margin-top: 14px;
+    font-size: 14px;
+    font-style: inherit;
+    color: var(--secondary);
+    letter-spacing: 3px;
+}
+.other_projects a {
+    text-decoration: none;
+    color: var(--light)
+}
+

@@ -1,24 +1,36 @@
-import "./Hero.css"
+import "./Hero.css";
 
-const Hero = () => {
+const Hero = ({inverse, img, alt, title, content}) => {
+
     return (
-        <>
+        <>{inverse ?
             <div className="hero">
                 <div className="container">
-                    <div className="col_left box_effect box col">
-                        <h4>title</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur consequuntur
-                            doloribus eaque, iusto placeat!</p>
+                    <div className="col_left box_effect effect box col">
+                        <img src={img} alt={alt}/>
                     </div>
-                    <div className="col_right box_gloss box col">
-                        <h3>title again</h3>
+                    <div className="col_right box_gloss gloss box col">
+                        <h3>{title}</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iure minus optio soluta velit
-                            vitae!
+                            {content}
                         </p>
                     </div>
                 </div>
+            </div> :
+            <div className="hero">
+                <div className="container">
+                    <div className="col_left box_gloss effect box col">
+                        <h3>{title}</h3>
+                        <p>
+                            {content}
+                        </p>
+                    </div>
+                    <div className="col_right box_effect gloss box col">
+                        <img src={img} alt={alt}/>
+                    </div>
+                </div>
             </div>
+        }
         </>
     );
 }

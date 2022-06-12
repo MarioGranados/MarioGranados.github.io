@@ -11,6 +11,7 @@
     --primary: rgb(80, 255, 181);
     --transparnet: rgba(255, 255, 255, 0);
     --footer_bg: #20262e;
+    --card_bg: #193d51;
 
 }
 .container{
@@ -46,7 +47,7 @@
     justify-content: center;
     width: 100%;
     margin: auto;
-    padding: 15vh 20vh;
+    padding: 5vh 8vh;
 }
 .space_evenly {
     justify-content: space-evenly;
@@ -54,6 +55,7 @@
 .space_around {
     justify-content: space-around;
 }
+
 
 /*
 .box_effect{
