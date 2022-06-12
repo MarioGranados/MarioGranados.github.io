@@ -55,7 +55,31 @@
 .space_around {
     justify-content: space-around;
 }
-
+.title {
+    margin: 25px 0;
+    font-size: 32px;
+}
+hr {
+    text-align: center;
+    border: 1px solid var(--muted);
+    width: 100%;
+    border-radius: 5px;
+}
+.headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--dark);
+    color: var(--light)
+}
+.content {
+    margin: 10px;
+    flex-grow: .5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*
 .box_effect{

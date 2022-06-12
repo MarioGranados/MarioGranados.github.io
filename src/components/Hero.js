@@ -7,7 +7,9 @@ const Hero = ({inverse, img, alt, title, content}) => {
             <div className="hero">
                 <div className="container">
                     <div className="col_left box_effect effect box col">
-                        <img src={img} alt={alt} className='img'/>
+                        <a href="/" className='img'>
+                            <img src={img} alt={alt}/>
+                        </a>
                     </div>
                     <div className="col_right box_gloss gloss box col">
                         <h3>{title}</h3>
@@ -26,7 +28,9 @@ const Hero = ({inverse, img, alt, title, content}) => {
                         </p>
                     </div>
                     <div className="col_right box_effect gloss box col">
-                        <img src={img} alt={alt} className='img'/>
+                        <a href="/" className='img'>
+                            <img src={img} alt={alt}/>
+                        </a>
                     </div>
                 </div>
             </div>

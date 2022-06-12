@@ -1,25 +1,25 @@
 import './About.css';
-const About = () => {
-    return(
+
+const About = ({title, content, alt, skills}) => {
+    console.log(skills)
+    let html = [];
+    for (let i = 0; i < skills.length; i++) {
+        html.push(<li>{skills[i]}</li>)
+    }
+    return (
         <>
             <section className='about'>
                 <div className="container about_container">
                     <div className="row">
                         <div className="col">
-                            <h4>title</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita obcaecati quo sapiente tempora ut, voluptatibus.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequuntur eos illum ipsam, itaque quidem sed vitae.</p>
-                            <h6>Skills</h6>
+                            <h3>{title}</h3>
+                            <p>{content}</p>
                             <ul>
-                                <li>dkfj</li>
-                                <li>dkjf</li>
-                                <li>dlfkjd</li>
-                                <li>dkfjd</li>
-                                <li>dfkd</li>
+                                {html}
                             </ul>
                         </div>
                         <div className="col">
-                            <img src="/" alt="image of myself"/>
+                            <img src="/" alt={alt}/>
                         </div>
                     </div>
                 </div>

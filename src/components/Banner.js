@@ -6,12 +6,12 @@ const Banner = () => {
     const [greeting, setGreeting] = useState('');
     const [greeting2, setGreeting2] = useState("");
 
-    setTimeout(()=> {
+    setTimeout(() => {
         setGreeting("Hi I'm Mario");
-    },2000);
-    setTimeout(()=> {
+    }, 2000);
+    setTimeout(() => {
         setGreeting2("Software Developer");
-    },4000)
+    }, 4000)
 
     return (
         <>
@@ -21,8 +21,8 @@ const Banner = () => {
                     <h2 className='sub-header'>{greeting2}</h2>
                     <br/>
                     <Button
-                    buttonSize='btn_medium'
-                    buttonStyle='btn_outline'>Contact Me</Button>
+                        buttonSize='btn_medium'
+                        buttonStyle='btn_outline'>Contact Me</Button>
                 </div>
             </div>
         </>

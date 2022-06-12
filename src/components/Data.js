@@ -14,7 +14,7 @@ export const about = {
         "Then one day, I decided that I wanted to create my own music software, and discovered a new passion for programming"
     ]
 }
-export const experience = {
+/*export const experience = {
     inverse: true,
     img: 'https://cdn.dribbble.com/users/1708950/screenshots/4188877/developer_med.gif',
     alt: 'cpp, java, javascript, logos',
@@ -22,7 +22,7 @@ export const experience = {
     content: ['Programming is my passion, I like to create dynamic user experiences through my sites using: HTML, CSS, JS, React, Bootstrap.',
         <br/>, <br/>,
         'I also enjoy solving complex problems by developing new software ideas and applications using Java or C++']
-}
+}*/
 
 export const recycode = {
     inverse: true,
@@ -53,4 +53,10 @@ export const movieApp = {
     tools: 'Bootstrap, JQuery, HTML, CSS',
     link: '/',
     github: '/',
+}
+export const experience = {
+    title: 'Experience',
+    content: '',
+    alt: 'Photo of Mario Granados',
+    skills: ['JavaScript', 'Java', 'C++', 'React.js', 'Spring', 'Thymeleaf', 'JQuery', 'Object-Oriented Programming Language', 'MySQL', 'HTML', 'CSS', 'Business Solutions'],
 }

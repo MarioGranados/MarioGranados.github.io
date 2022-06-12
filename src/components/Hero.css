@@ -1,5 +1,5 @@
 .hero {
-    height: 100vh;
+    height: 70vh;
     background-color: var(--dark);
     color: var(--muted);
 }
@@ -34,8 +34,13 @@
     height: 20vh;
     padding: 15vh 15vh;
 }
-.img {
-    width: 100% !important;
-    margin: auto;
-    height: 100% !important;
+.img img {
+    width: 100%;
+    border: 1px solid transparent;
+    transition: 250ms;
+}
+.img img:hover {
+    border: 1px solid var(--light);
+    transform: translateY(-5px);
+    transition: 250ms;
 }
