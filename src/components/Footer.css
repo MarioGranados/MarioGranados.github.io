@@ -1,0 +1,40 @@
+.footer{
+    background-color: var(--footer_bg);
+    width: 100%;
+    margin: auto;
+    color: var(--light)
+}
+
+input, textarea {
+    background-color: transparent;
+    color: var(--light);
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--muted);
+    margin: 8px 0 15px 0;
+    transition: 350ms;
+
+}
+input:focus, textarea:focus {
+    box-shadow: 0 3px 10px var(--light);
+    transition: 350ms;
+    border: 4px dot-dash var(--muted);
+}
+
+.footer_header {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.icons {
+    width: 100%;
+    margin: auto;
+    font-size: 50px;
+    display: inline-block;
+    background-color: var(--footer_bg);
+}
+
+.icons:hover {
+    background-color: var(--light);
+}

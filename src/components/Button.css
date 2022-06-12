@@ -1,7 +1,6 @@
-:root {
-    --primary: #1149b1;
+a {
+    text-decoration: none;
 }
-
 .btn {
     padding: 8px 20px;
     border-radius: 4px;
@@ -55,10 +54,16 @@
 
 .btn_large:hover,
 .btn_medium:hover,
-.btn_mobile:hover {
+.btn_mobile:hover,
+.btn_outline:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     color: #242424;
+}
+
+.btn_outline:hover {
+    background: var(--primary) ;
+    color: var(--dark);
 }
 
 .btn_wide:hover {

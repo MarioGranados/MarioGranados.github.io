@@ -1,8 +1,7 @@
 import './Button.css';
-import React from "react";
 
-const STYLES = ['btn_primary', 'btn_secondary'];
-const SIZES = ['btn_medium', 'btn_large', 'btn_mobile', 'btn_outline'];
+const STYLES = ['btn_primary', 'btn_secondary', 'btn_outline'];
+const SIZES = ['btn_medium', 'btn_large', 'btn_mobile'];
 const COLOR = ['primary', 'secondary', 'blue', 'green'];
 
 export const Button = ({
@@ -12,9 +11,9 @@ export const Button = ({
                            buttonColor,
 
                        }) => {
-    const style = STYLES.contains(buttonStyle) ? buttonStyle : STYLES[0];
-    const size = STYLES.contains(buttonSize) ? buttonSize : SIZES[0];
-    const color = STYLES.contains(buttonColor) ? buttonColor : COLOR[0];
+    const style = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
+    const size = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+    const color = COLOR.includes(buttonColor) ? buttonColor : null;
 
     return (
         <a href='/' className={`btn ${style} ${size} ${color}`}

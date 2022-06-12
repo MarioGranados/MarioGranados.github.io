@@ -1,15 +1,10 @@
 .navbar {
-    background-color: blue;
-    border-bottom: 2px solid darkblue;
-    height: 15vh;
+    background-color: var(--dark);
+    border-bottom: 2px solid var(--dark);
+    height: 10vh;
     color: black;
 }
-.d-flex {
-    display: flex;
-}
-.justify_content_right {
-    justify-content: right;
-}
+
 .nav_link {
     display:inline-block;
     padding: 10px 10px;
@@ -17,17 +12,17 @@
     top: 10px;
     border-radius: 3px;
 }
-.nav_link:hover {
-    background-color: #2e294e;
-    color: green;
+/*.nav_link:hover {
+    background-color: var(--secondary);
+    color: var(--light);
     transition: 250ms;
-}
+}*/
 .nav_link > :hover {
-    color: green;
+    color: var(--light);
 }
 .nav_link a{
     text-decoration: none;
-    color: white;
+    color: var(--secondary);
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
