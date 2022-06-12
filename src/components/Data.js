@@ -1,3 +1,7 @@
+import RECYCODE from '../img/GithubGen.png'
+import WEATHERAPP from '../img/WeatherApp.png';
+import MOVIEAPP from '../img/WeatherApp.png';
+
 export const about = {
     inverse: false,
     img: 'https://static.wixstatic.com/media/2be1ce_864567900845418ebfd61e297637464d~mv2.gif',
