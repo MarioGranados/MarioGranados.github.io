@@ -1,6 +1,6 @@
 import RECYCODE from '../img/GithubGen.png'
 import WEATHERAPP from '../img/WeatherApp.png';
-import MOVIEAPP from '../img/WeatherApp.png';
+import MOVIEAPP from '../img/MovieApp.png';
 
 export const about = {
     inverse: false,
@@ -19,9 +19,38 @@ export const experience = {
     img: 'https://cdn.dribbble.com/users/1708950/screenshots/4188877/developer_med.gif',
     alt: 'cpp, java, javascript, logos',
     title: 'Experience',
-    content: ['Programming is my passion, I like to create dynamic user experiences through my sites using: HTML, CSS, JS, React, Bootstrap.',<br/>, <br/>,
-    'I also enjoy solving complex problems by developing new software ideas and applications using Java or C++']
+    content: ['Programming is my passion, I like to create dynamic user experiences through my sites using: HTML, CSS, JS, React, Bootstrap.',
+        <br/>, <br/>,
+        'I also enjoy solving complex problems by developing new software ideas and applications using Java or C++']
 }
 
-
-
+export const recycode = {
+    inverse: true,
+    img: RECYCODE,
+    alt: 'recycode thumbnail',
+    title: 'Recycode',
+    content: 'A website where users can create custom css code snippets and share them with other users in the community. Users can also rate other\'s code snippets and save them to their favorites',
+    tools: 'Java Spring, Bootstrap, Thymeleaf, CSS, HTML, FileStack API, MySQL',
+    link: '/',
+    github: '/',
+}
+export const weatherApp = {
+    inverse: false,
+    img: WEATHERAPP,
+    alt: 'Weather App Thumbnail',
+    title: 'Weather App',
+    content: 'A weather app that provided forward and reverse geolocation to allow users to track weather with pinpoint coordinate accuracy. ',
+    tools: 'Mapbox API, Bootstrap, JQuery, CSS, HTML, Weather API',
+    link: '/',
+    github: '/',
+}
+export const movieApp = {
+    inverse: true,
+    img: MOVIEAPP,
+    alt: 'Movie App Thumbnail',
+    title: 'Movie App',
+    content: 'An app where you can store movies stored in a small prebuild-server',
+    tools: 'Bootstrap, JQuery, HTML, CSS',
+    link: '/',
+    github: '/',
+}

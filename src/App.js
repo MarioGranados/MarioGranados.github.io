@@ -4,7 +4,7 @@ import './App.css';
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Hero from './components/Hero';
-import {about, experience} from "./components/Data";
+import {recycode, weatherApp, movieApp} from "./components/Data";
 import OtherProjects from "./components/OtherProjects";
 import About from "./components/About";
 
@@ -14,8 +14,9 @@ function App() {
             <Navbar/>
             <Banner/>
             <About/>
-            <Hero{...about}/>
-            <Hero{...experience}/>
+            <Hero {...recycode}/>
+            <Hero {...weatherApp}/>
+            <Hero {...movieApp}/>
             <OtherProjects/>
             <Footer/>
         </>
