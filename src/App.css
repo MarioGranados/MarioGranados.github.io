@@ -1,28 +1,13 @@
-:root {
-  --main-bg: rgba(4, 13, 53, 0.95);
-  --main-bg-2: rgba(0, 72, 105, 0.94);
-  --golden-text: rgb(203, 146, 72);
-  --red-text: rgb(184, 30, 81);
-
-}
-
-.red-text {
-  color: var(--red-text);
-}
-
-.golden-text {
-  color: var(--golden-text);
-}
-
 * {
-  color: #03c458;
+    margin: 0;
+    padding: 0;
 }
-
-.main_bg {
-  background-image: linear-gradient(var(--main-bg), var(--main-bg-2));
+.container{
+    padding: 10vh 10vh;
+    width: 70%;
+    margin: 25px auto;
+    background-color: #bcbcbc;
 }
-
-/*============*/
-.green_border {
-  border: 8px solid #03c458;
+.text-center {
+    text-align: center;
 }
