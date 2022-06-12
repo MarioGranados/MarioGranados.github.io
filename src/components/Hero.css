@@ -1,4 +1,30 @@
 .hero {
     height: 100vh;
     background-color: var(--dark);
+    color: var(--muted);
+}
+
+.box_effect{
+    box-shadow: 0.5rem 0.5rem var(--light), -0.5rem -0.5rem red;
+    transition: 250ms;
+    position: absolute;
+    left: 10%;
+    width: 25%;
+    height: 20vh;
+    padding: 15vh 15vh;
+}
+.box_gloss {
+    color: var(--light);
+    padding: 15vh 20vh;
+    height: 20vh;
+    position: absolute;
+    right: 10%;
+    width: 25%;
+    /* From https://css.glass */
+    background: rgba(49, 52, 163, 0.83);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    border: 1px solid rgba(49, 52, 163, 0.66);
 }
