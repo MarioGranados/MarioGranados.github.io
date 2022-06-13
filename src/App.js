@@ -16,17 +16,17 @@ function App() {
     return (
         <>
             <div className='sidenav d-flex '>
-                <a href="/" className='sidenav_links'>
-                    <FaGithub/>
+                <a href="https://github.com/MarioGranados" className='sidenav_links'>
+                    <FaGithub className='links'/>
                 </a>
-                <a href="/" className='sidenav_links'>
-                    <FaLinkedin/>
+                <a href="https://www.linkedin.com/in/marioagranados/" className='sidenav_links'>
+                    <FaLinkedin className='links'/>
                 </a>
-                <a href="/" className='sidenav_links'>
-                    <MdMail/>
+                <a href="/Contact" className='sidenav_links'>
+                    <MdMail className='links'/>
                 </a>
-                <a href="/" className='sidenav_links'>
-                    <SiLeetcode/>
+                <a href="https://leetcode.com/mariogranados/" className='sidenav_links'>
+                    <SiLeetcode className='links'/>
                 </a>
             </div>
                 <Navbar/>

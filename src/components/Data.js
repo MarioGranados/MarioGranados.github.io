@@ -55,7 +55,7 @@ export const movieApp = {
     github: '/',
 }
 export const experience = {
-    title: 'Experience',
+    title: 'Skills',
     content: '',
     alt: 'Photo of Mario Granados',
     skills: ['JavaScript', 'Java', 'C++', 'React.js', 'Spring', 'Thymeleaf', 'JQuery', 'Object-Oriented Programming Language', 'MySQL', 'HTML', 'CSS', 'Business Solutions'],

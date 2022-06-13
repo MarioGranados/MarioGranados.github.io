@@ -1,5 +1,15 @@
+
 .about {
     background-color: var(--dark);
-    color: white;
+    color: var(--light);
+}
+.mario {
+    width: 100%;
+    border-radius: 5px;
 }
 
+.about ul li::marker {
+    font-size: 24px;
+    color: var(--light);
+    background-image: var(--light);
+}

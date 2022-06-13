@@ -1,4 +1,5 @@
 import './About.css';
+import Mario from '../img/MarioGranados.png';
 
 const About = ({title, content, alt, skills}) => {
     console.log(skills)
@@ -12,14 +13,14 @@ const About = ({title, content, alt, skills}) => {
                 <div className="container about_container">
                     <div className="row">
                         <div className="col">
-                            <h3>{title}</h3>
+                            <h3 className='title'>{title}</h3>
                             <p>{content}</p>
                             <ul>
                                 {html}
                             </ul>
                         </div>
                         <div className="col">
-                            <img src="/" alt={alt}/>
+                            <img src={Mario} alt={alt} className='mario'/>
                         </div>
                     </div>
                 </div>

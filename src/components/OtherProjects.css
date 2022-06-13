@@ -4,8 +4,8 @@
 .cards {
     background-color: var(--card_bg);
     border: 1px solid var(--card_bg);
-    padding: 5vh 5vh;
-    width: 15rem;
+    padding: 2vh 4vh;
+    width: 13rem;
     min-height: 15rem;
     color: var(--light);
     border-radius: 5px;

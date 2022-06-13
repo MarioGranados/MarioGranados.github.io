@@ -4,10 +4,10 @@ const Navbar = () => {
         <>
             <nav className='navbar justify_content_right d-flex'>
                 <ul>
-                    <li className='nav_link'><a href='/'>Home</a></li>
-                    <li className='nav_link'><a href='/'>Portfolio</a></li>
-                    <li className='nav_link'><a href='/'>About</a></li>
-                    <li className='nav_link'><a href='/'>Contact</a></li>
+                    <li className='nav_link'><a href='/Home'>Home</a></li>
+                    <li className='nav_link'><a href='/Porfolio'>Portfolio</a></li>
+                    <li className='nav_link'><a href='/About'>About</a></li>
+                    <li className='nav_link'><a href='/Contact'>Contact</a></li>
                 </ul>
             </nav>
         </>
