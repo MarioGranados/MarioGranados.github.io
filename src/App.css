@@ -88,3 +88,33 @@ hr {
     }
 
 */
+
+.sidenav {
+    height: 100%;
+    width: 15vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    transition: 0.5s;
+    padding-top: 15%;
+    font-size: 36px;
+    flex-direction: column;
+    color: white;
+
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.64);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+}
+
+.sidenav_links {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.sidenav_links a:hover {
+    background-color: blue;
+}
+
