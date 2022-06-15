@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar'
-import React from "react";
+import React, {useState} from "react";
 import './App.css';
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
@@ -11,12 +11,14 @@ import {Headers} from "./components/Headers";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {SiLeetcode} from "react-icons/si";
 import {MdMail} from "react-icons/md";
+import scrollTo from "./components/Utils";
 
 function App() {
+
     return (
         <>
             <div className='sidenav d-flex '>
-                <a href="https://github.com/MarioGranados" className='sidenav_links'>
+                <a href="https://github.com/MarioGranados" className='sidenav_links' >
                     <FaGithub className='links'/>
                 </a>
                 <a href="https://www.linkedin.com/in/marioagranados/" className='sidenav_links'>

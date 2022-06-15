@@ -130,3 +130,29 @@ hr {
     transition: 250ms;
 }
 
+.justify-content-center {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.p-5 {
+    padding: 50px;
+}
+.p-4 {
+    padding: 40px;
+}
+.p3 {
+    padding: 30px;
+}
+
+.mt-none {
+    margin-top: 0;
+}
+.pt-none {
+    padding-top: 0;
+}
