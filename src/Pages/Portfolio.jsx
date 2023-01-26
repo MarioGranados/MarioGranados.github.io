@@ -15,7 +15,7 @@ const Portfolio = () => {
           <div className="col">
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Title</h3>
+                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PokeLister</h3>
                 <ul className="d-flex list-unstyled mt-auto">
                   <li className="me-auto">
                     <img
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <div className="col">
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Title</h3>
+                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">RecyCode</h3>
                 <ul className="d-flex list-unstyled mt-auto">
                   <li className="me-auto">
                     <img
@@ -77,7 +77,7 @@ const Portfolio = () => {
           <div className="col">
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Title</h3>
+                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PokeApp</h3>
                 <ul className="d-flex list-unstyled mt-auto">
                   <li className="me-auto">
                     <img
