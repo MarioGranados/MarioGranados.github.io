@@ -1,14 +1,16 @@
 import { Link } from "react-router-dom";
+import PORTRAIT from '../Images/portrait.png'
 const Banner = () => {
   return (
     <>
       <div className="px-4 py-5 my-5 text-center">
         <img
           className="d-block mx-auto mb-4"
-          src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+          src={PORTRAIT}
           alt=""
-          width="72"
-          height="57"
+          width="200"
+          height="200"
+          style={{borderRadius: '50%'}}
         />
         <h1 className="display-4 fw-bold">Mario Granados</h1>
         <h3 className="display-5">Software Developer</h3>

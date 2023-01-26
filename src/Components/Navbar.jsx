@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import LOGO from '../Images/m.png';
 const Navbar = (props) => {
   return (
     <>
@@ -9,10 +10,9 @@ const Navbar = (props) => {
             to="/"
             className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
           >
-            <svg className="bi me-2" width="40" height="32">
-              <use xlinkHref="#bootstrap" />
-            </svg>
-            <span className="fs-4">MG</span>
+            <img src={LOGO} className="bi me-2" width="80" height="50"/>
+            
+            <span className="fs-4">Mario Granados</span>
           </Link>
 
           <ul className="nav nav-pills">

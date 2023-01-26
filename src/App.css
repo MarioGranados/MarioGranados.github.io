@@ -1,13 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
+:root {
+    --primary: #4392F1;
+    --light: #ECE8EF;
+    --secondary: #CA2E55;
+    --dark: #02020B;
+    --extra: #26FFE6;
 }
-.container{
-    padding: 10vh 10vh;
-    width: 70%;
-    margin: 25px auto;
-    background-color: #bcbcbc;
+
+.bg-primary {
+    background-color: var(--primary) !important;
 }
-.text-center {
-    text-align: center;
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+
+.bg-extra {
+    background-color: var(--extra) !important;
+}
+/* btn  starts */
+
+.btn-primary {
+    background-color: var(--primary) !important;
+}
+.btn-secondary {
+    background-color: var(--secondary) !important;
+}
+.btn-dark {
+    background-color: var(--dark) !important
+}
+.btn-light {
+    background-color: var(--light) !important
+}
+.btn-extra {
+    background-color: var(--extra) !important
 }
