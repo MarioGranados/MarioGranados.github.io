@@ -1,16 +1,7 @@
-import { useState } from "react";
-import MoreProjects from "../Components/MoreProjects";
-const Portfolio = () => {
-  const [showMore, setShowMore] = useState(false);
-  const handleClick = () => {
-    setShowMore(!showMore);
-  };
-
+const MoreProjects = () => {
   return (
     <>
       <div className="container px-4 py-5" id="custom-cards">
-        <h2 className="pb-2 border-bottom">My Works</h2>
-
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div className="col">
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
@@ -105,19 +96,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        {!showMore ? (
-          <button className="btn-outline-dark btn" onClick={handleClick}>
-            Show More
-          </button>
-        ) : (<>
-            <MoreProjects/>
-          <button className="btn-outline-dark btn" onClick={handleClick}>
-            Show Less
-          </button>
-          </>
-        )}
       </div>
     </>
   );
 };
-export default Portfolio;
+export default MoreProjects;

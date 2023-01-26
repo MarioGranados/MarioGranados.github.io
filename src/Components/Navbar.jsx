@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <>
       <div className="container">
@@ -16,7 +17,7 @@ const Navbar = () => {
 
           <ul className="nav nav-pills">
             <li className="nav-item">
-              <Link to="/" className="nav-link" aria-current="page">
+              <Link to="/" className={props === 'home' ? "nav-link active": 'nav-link'} aria-current="page">
                 Home
               </Link>
             </li>
@@ -36,7 +37,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/resume" className="nav-link">
+              <Link to="/resume" className="nav-link active">
                 Resume
               </Link>
             </li>

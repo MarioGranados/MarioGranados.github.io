@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Skills = () => {
 
     return(<>
@@ -8,7 +10,7 @@ const Skills = () => {
       <div className="col d-flex flex-column align-items-start gap-2">
         <h3 className="fw-bold">Technical Skills</h3>
         <p className="text-muted">As A full stack developer I am proficient in the following skills</p>
-        <a href="#" className="btn btn-primary btn-lg">Contact</a>
+        <Link to='/contact' className="btn btn-primary btn-lg">Contact</Link>
       </div>
 
       <div className="col">
