@@ -33,6 +33,7 @@
 }
 .btn-secondary {
     background-color: var(--secondary) !important;
+    color: white;
 }
 .btn-dark {
     background-color: var(--dark) !important
@@ -43,3 +44,24 @@
 .btn-extra {
     background-color: var(--extra) !important
 }
+
+.btn-outline-primary {
+    background-color: var(--primary) !important;
+}
+.btn-outline-secondary {
+    background-color: var(--secondary) !important;
+    color: white;
+}
+.btn-outline-dark {
+    background-color: var(--dark) !important
+}
+.btn-outline-light {
+    background-color: var(--light) !important
+}
+.btn-outline-extra {
+    background-color: var(--extra) !important
+}
+
+
+
+

@@ -6,13 +6,22 @@ import Portfolio from "./Pages/Portfolio";
 import Skills from "./Pages/Skills";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
-import { useState } from "react";
+
+import AOS from 'aos'
+import { useEffect } from "react";
+import 'aos/dist/aos.css';
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-
+  useEffect(() => {
+    AOS.init({
+      duration: 900,
+    });
+    AOS.refresh();
+  }, []);
   return (
+
     <div className="bg-light">
       <BrowserRouter>
         <Navbar />

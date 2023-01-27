@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import PORTRAIT from '../Images/portrait.png'
+
 const Banner = () => {
+
   return (
     <>
       <div className="px-4 py-5 my-5 text-center">
@@ -12,7 +14,7 @@ const Banner = () => {
           height="200"
           style={{borderRadius: '50%'}}
         />
-        <h1 className="display-4 fw-bold">Mario Granados</h1>
+        <h1 className="display-4 fw-bold" data-aos="fade-up">Mario Granados</h1>
         <h3 className="display-5">Software Developer</h3>
         <div className="col-lg-6 mx-auto">
           <p className="lead mb-4">
