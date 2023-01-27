@@ -4,7 +4,7 @@ import PORTRAIT from '../Images/portrait.png'
 const Banner = () => {
 
   return (
-    <>
+    <div >
       <div className="px-4 py-5 my-5 text-center">
         <img
           className="d-block mx-auto mb-4"
@@ -34,7 +34,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -36,13 +36,14 @@
     color: white;
 }
 .btn-dark {
-    background-color: var(--dark) !important
+    background-color: var(--dark) !important;
+    color: white !important;
 }
 .btn-light {
-    background-color: var(--light) !important
+    background-color: var(--light) !important;
 }
 .btn-extra {
-    background-color: var(--extra) !important
+    background-color: var(--extra) !important;
 }
 
 .btn-outline-primary {
@@ -53,13 +54,14 @@
     color: white;
 }
 .btn-outline-dark {
-    background-color: var(--dark) !important
+    background-color: var(--light) !important;
+
 }
 .btn-outline-light {
-    background-color: var(--light) !important
+    background-color: var(--light) !important;
 }
 .btn-outline-extra {
-    background-color: var(--extra) !important
+    background-color: var(--extra) !important;
 }
 
 

@@ -1,10 +1,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import LOGO from "../Images/m.png";
+import './navbar.css'
 const Navbar = (props) => {
+  const linkColor = {
+    color: 'white',
+  }
   return (
     <>
-      <div className="container-fluid bg-secondary">
+      <div className="container-fluid bg-secondary text">
         <div className="container">
           <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <Link
@@ -19,7 +23,7 @@ const Navbar = (props) => {
                 height="50"
               />
 
-              <span className="fs-4">Mario Granados</span>
+              <span className="fs-4" style={linkColor}>Mario Granados</span>
             </Link>
 
             <ul className="nav nav-pills">
@@ -28,27 +32,28 @@ const Navbar = (props) => {
                   to="/"
                   className={props === "home" ? "nav-link active" : "nav-link"}
                   aria-current="page"
+                  style={linkColor}
                 >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/portfolio" className="nav-link">
+                <Link to="/portfolio" className="nav-link" style={linkColor}>
                   Portfolio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/about" className="nav-link">
+                <Link to="/about" className="nav-link" style={linkColor}>
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contact" className="nav-link">
+                <Link to="/contact" className="nav-link" style={linkColor}>
                   Contact
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/resume" className="nav-link active">
+                <Link to="/resume" className="nav-link active" style={linkColor}>
                   Resume
                 </Link>
               </li>
