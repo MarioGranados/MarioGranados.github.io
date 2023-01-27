@@ -1,6 +1,7 @@
 import COFFEE from '../Images/coffee.png'
 import MOVIE from '../Images/movies.png'
 import WEATHER from '../Images/weather.png'
+import LOGO from '../Images/m.png'
 const MoreProjects = () => {
   return (
     <>
@@ -12,9 +13,9 @@ const MoreProjects = () => {
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Movie Project</h3>
                 <ul className="d-flex list-unstyled mt-auto">
                   <li className="me-auto">
-                    <img
-                      src="https://github.com/twbs.png"
-                      alt="Bootstrap"
+                  <img
+                      src={LOGO}
+                      alt="MG"
                       width="32"
                       height="32"
                       className="rounded-circle border border-white"
@@ -43,9 +44,9 @@ const MoreProjects = () => {
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Coffee Project</h3>
                 <ul className="d-flex list-unstyled mt-auto">
                   <li className="me-auto">
-                    <img
-                      src="https://github.com/twbs.png"
-                      alt="Bootstrap"
+                  <img
+                      src={LOGO}
+                      alt="MG"
                       width="32"
                       height="32"
                       className="rounded-circle border border-white"
@@ -74,9 +75,9 @@ const MoreProjects = () => {
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Weather Map Project</h3>
                 <ul className="d-flex list-unstyled mt-auto">
                   <li className="me-auto">
-                    <img
-                      src="https://github.com/twbs.png"
-                      alt="Bootstrap"
+                  <img
+                      src={LOGO}
+                      alt="MG"
                       width="32"
                       height="32"
                       className="rounded-circle border border-white"

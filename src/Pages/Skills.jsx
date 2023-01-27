@@ -7,13 +7,13 @@ const Skills = () => {
     <h2 className="pb-2 border-bottom">Skills</h2>
 
     <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-      <div className="col d-flex flex-column align-items-start gap-2">
+      <div className="col d-flex flex-column align-items-start gap-2" data-aos='fade-down-right'>
         <h3 className="fw-bold">Technical Skills</h3>
         <p className="text-muted">As A full stack developer I am proficient in the following skills</p>
         <Link to='/contact' className="btn btn-primary btn-lg">Contact</Link>
       </div>
 
-      <div className="col">
+      <div className="col" data-aos='fade-down-left'>
         <div className="row row-cols-1 row-cols-sm-2 g-4">
           <div className="col d-flex flex-column gap-2">
             <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
