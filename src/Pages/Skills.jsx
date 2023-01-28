@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { SiMysql, SiReact, SiHtml5, SiCss3, SiAngular, SiBootstrap, SiMongodb} from "react-icons/si";
 
 const Skills = () => {
 
@@ -27,9 +28,7 @@ const Skills = () => {
 
           <div className="col d-flex flex-column gap-2">
             <div className="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-              <svg className="bi" width="1em" height="1em">
-                <use xlinkHref="#gear-fill" />
-              </svg>
+                <SiAngular/> <SiBootstrap/> <SiCss3/> <SiHtml5/> <SiReact/>
             </div>
             <h4 className="fw-semibold mb-0">Responsive UX/UI Design</h4>
             <p className="text-muted">Webflow planning and modern web designs</p>
