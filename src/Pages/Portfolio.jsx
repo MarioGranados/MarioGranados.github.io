@@ -13,7 +13,7 @@ const Portfolio = () => {
         <h2 className="pb-2 border-bottom">My Works</h2>
 
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-          <div className="col" data-aos='fade-right'>
+          <div className="col" data-aos='fade-up'>
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PokeLister</h3>
@@ -44,7 +44,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="col" data-aos='fade-up'>
+          <div className="col" data-aos='fade-down'>
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">RecyCode</h3>
@@ -75,7 +75,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="col" data-aos='fade-left'>
+          <div className="col" data-aos='fade-up'>
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PokeApp</h3>
