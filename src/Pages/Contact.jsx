@@ -1,11 +1,24 @@
 import { useState } from "react";
 
 const Contact = () => {
+
+  
   const [click, setClick] = useState(false);
+  const [message, setMessage] = useState({
+    fullName: '',
+    cellPhone: '',
+    message: '',
+    email: '',
+  })
   const handleSendMessage = (e) => {
     e.preventDefault();
+    console.log(message)
     setClick(true);
   };
+  const handleEmailChange = (e) => {
+    setMessage(...message, {[e.name.value] : [e.target.value]})
+  }
+
   return (
     <>
     <div className="container-fluid bg-secondary">
@@ -32,6 +45,8 @@ const Contact = () => {
                       className="form-control"
                       id="floatingName"
                       placeholder="John Doe"
+                      name="fullName"
+                      onChange={handleEmailChange}
                     />
                     <label htmlFor="floatingName">Full Name</label>
                   </div>
@@ -41,6 +56,8 @@ const Contact = () => {
                       className="form-control"
                       id="floatingEmail"
                       placeholder="johndoe@example.com"
+                      name='email'
+                      onChange={handleEmailChange}
                     />
                     <label htmlFor="floatingEmail">Email</label>
                   </div>
@@ -51,6 +68,8 @@ const Contact = () => {
                       id="floatingNumber"
                       placeholder="Password"
                       pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                      name="cellPhone"
+                      onChange={handleEmailChange}
                     />
                     <label htmlFor="floatingNumber">Phone Number</label>
                   </div>
@@ -60,6 +79,8 @@ const Contact = () => {
                       id="floatingMessage"
                       placeholder="Message"
                       style={{ resize: "none", height: "15vh" }}
+                      name='message'
+                      onChange={handleEmailChange}
                     />
                     <label htmlFor="floatingMessage">Message</label>
                   </div>

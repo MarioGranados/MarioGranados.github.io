@@ -35,6 +35,8 @@ const Skills = () => {
               <li>TTD</li>
               <li>Version Control</li>
               <li>Debugging</li>
+              <li>Front-End UX/UI Development</li>
+              <li>Back-End Development</li>
             </ul>
             <Link to="/contact" className="btn btn-primary btn-lg">
               Contact

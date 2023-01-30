@@ -53,9 +53,7 @@ const Navbar = (props) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/resume" className="nav-link active" style={linkColor}>
-                  Resume
-                </Link>
+                <a href="https://www.linkedin.com/in/marioagranados/" target='_blank' className="nav-link text-light">Resume</a>
               </li>
             </ul>
           </header>
