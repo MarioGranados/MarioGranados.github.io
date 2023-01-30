@@ -11,7 +11,7 @@ const Contact = () => {
     <div className="container-fluid bg-secondary">
     <div className="container col-xl-10 col-xxl-8 px-4 py-5">
         <div className="row align-items-center g-lg-5 py-5" >
-          <div className="col-lg-7 text-center text-lg-start" data-aos='fade-down-right'>
+          <div className="col-lg-7 text-center text-lg-start" data-aos='flip-up'>
             <h1 className="display-4 fw-bold lh-1 mb-3 text-light">Contact Me</h1>
             <p className="col-lg-10 fs-4 text-light">
               Whether you are a small business looking for a custom website or a
@@ -20,7 +20,7 @@ const Contact = () => {
               the following form.
             </p>
           </div>
-          <div className="col-md-10 mx-auto col-lg-5" data-aos='fade-up-left'>
+          <div className="col-md-10 mx-auto col-lg-5" data-aos='flip-down'>
             <form className="p-4 p-md-5 border rounded-3 bg-light">
               {click ? (
                 <><h3 className="text-center">Your Message Has Been Sent, Thank You</h3></>
