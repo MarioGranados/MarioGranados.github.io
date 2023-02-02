@@ -12,6 +12,7 @@ import { useEffect } from "react";
 import 'aos/dist/aos.css';
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MoreProjects from "./Components/MoreProjects";
 
 function App() {
   useEffect(() => {
@@ -29,7 +30,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio"element=  {<Portfolio />}/>
+          <Route path="/portfolio"element=  {<MoreProjects />}/>
           <Route path="/skills" element={<Skills />} />
         </Routes>
         <Footer />

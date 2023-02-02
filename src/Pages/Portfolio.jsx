@@ -31,13 +31,13 @@ const Portfolio = () => {
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#geo-fill" />
                     </svg>
-                    <small>Earth</small>
+                    <small></small>
                   </li>
                   <li className="d-flex align-items-center">
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#calendar3" />
                     </svg>
-                    <small>3d</small>
+                    <small></small>
                   </li>
                 </ul>
               </div>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#calendar3" />
                     </svg>
-                    <small>4d</small>
+                    <small></small>
                   </li>
                 </ul>
               </div>

@@ -4,7 +4,7 @@ import WEATHER from '../Images/weather.png'
 import LOGO from '../Images/m.png'
 const MoreProjects = () => {
   return (
-    <>
+    <div className='container'>
 
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div className="col" data-aos="fade-up">
@@ -25,13 +25,13 @@ const MoreProjects = () => {
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#geo-fill" />
                     </svg>
-                    <small>Earth</small>
+                    <small>HTML, CSS, JS</small>
                   </li>
                   <li className="d-flex align-items-center">
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#calendar3" />
                     </svg>
-                    <small>3d</small>
+                    <small></small>
                   </li>
                 </ul>
               </div>
@@ -56,13 +56,13 @@ const MoreProjects = () => {
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#geo-fill" />
                     </svg>
-                    <small>Pakistan</small>
+                    <small>HTML, CSS, JS</small>
                   </li>
                   <li className="d-flex align-items-center">
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#calendar3" />
                     </svg>
-                    <small>4d</small>
+                    <small></small>
                   </li>
                 </ul>
               </div>
@@ -87,13 +87,13 @@ const MoreProjects = () => {
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#geo-fill" />
                     </svg>
-                    <small>California</small>
+                    <small>HTML, CSS, JS</small>
                   </li>
                   <li className="d-flex align-items-center">
                     <svg className="bi me-2" width="1em" height="1em">
                       <use xlinkHref="#calendar3" />
                     </svg>
-                    <small>5d</small>
+                    <small></small>
                   </li>
                 </ul>
               </div>
@@ -101,7 +101,7 @@ const MoreProjects = () => {
           </div>
         </div>
   
-    </>
+    </div>
   );
 };
 export default MoreProjects;
