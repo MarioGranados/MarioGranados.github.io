@@ -115,7 +115,7 @@ const Contact = () => {
                     </button>
                     <hr className="my-4" />
                     <small className="text-light">
-                      By clicking Sign up, you agree to the terms of use.
+                      
                     </small>
                   </>
                 )}
