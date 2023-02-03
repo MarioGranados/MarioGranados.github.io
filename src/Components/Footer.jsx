@@ -1,9 +1,9 @@
-import {FaLinkedin, FaGithubSquare, FaGit} from 'react-icons/fa'
+import {FaLinkedin, FaGithubSquare} from 'react-icons/fa'
 
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid bg-secondary">
+      <div className="container-fluid bg-secondary fixed-bottom">
         <div className="container">
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
           <div className="col-md-4 d-flex align-items-center">

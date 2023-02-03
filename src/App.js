@@ -17,7 +17,7 @@ import MoreProjects from "./Components/MoreProjects";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 900,
+      duration: 1500,
     });
     AOS.refresh();
   }, []);

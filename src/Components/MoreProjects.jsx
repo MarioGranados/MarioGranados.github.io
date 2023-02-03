@@ -7,9 +7,9 @@ const MoreProjects = () => {
     <div className="container">
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div className="col" data-aos="fade-up">
-          <a href="https://mariogranados.github.io/MovieProject/">
+          <a href="https://mariogranados.github.io/MovieProject/" className="text-decoration-none">
             <div
-              className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg shadow_hover"
               style={{
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -49,9 +49,9 @@ const MoreProjects = () => {
         </div>
 
         <div className="col" data-aos="fade-down">
-          <a href="https://mariogranados.github.io/Coffee-ProjectV2/">
+          <a href="https://mariogranados.github.io/Coffee-ProjectV2/" className="text-decoration-none">
             <div
-              className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg shadow_hover"
               style={{
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -91,9 +91,9 @@ const MoreProjects = () => {
         </div>
 
         <div className="col" data-aos="fade-up">
-          <a href="https://mariogranados.github.io/weather-map-app/">
+          <a href="https://mariogranados.github.io/weather-map-app/" className="text-decoration-none">
             <div
-              className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg shadow_hover"
               style={{
                 backgroundSize: "cover",
                 backgroundPosition: "center",

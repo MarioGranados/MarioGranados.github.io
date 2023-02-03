@@ -17,14 +17,14 @@ const Contact = () => {
 
   const handleSendMessage = (event) => {
     event.preventDefault();
-    // emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
-    //   (result) => {
-    //     console.log(result.text);
-    //   },
-    //   (error) => {
-    //     console.log(error.text);
-    //   }
-    // );
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     setClick(true);
   };
   const handleEmailChange = (e) => {
@@ -33,7 +33,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container-fluid bg-secondary">
+      <div className="container-fluid bg-secondary ">
         <div className="container col-xl-10 col-xxl-8 px-4 py-5">
           <div className="row align-items-center g-lg-5 py-5">
             <div
@@ -51,10 +51,10 @@ const Contact = () => {
               </p>
             </div>
             <div className="col-md-10 mx-auto col-lg-5" data-aos="flip-down">
-              <form ref={form} onSubmit={handleSendMessage} className="p-4 p-md-5 border rounded-3 bg-secondary text-light">
+              <form ref={form} onSubmit={handleSendMessage} className="p-4 p-md-5 border rounded-3 bg-secondary ">
                 {click ? (
                   <>
-                    <h3 className="text-center">
+                    <h3 className="text-center text-light">
                       Your Message Has Been Sent, Thank You
                     </h3>
                   </>
@@ -114,7 +114,7 @@ const Contact = () => {
                       Send Message
                     </button>
                     <hr className="my-4" />
-                    <small className="text-muted">
+                    <small className="text-light">
                       By clicking Sign up, you agree to the terms of use.
                     </small>
                   </>

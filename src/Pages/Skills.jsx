@@ -16,10 +16,11 @@ import {
 } from "react-icons/si";
 
 const Skills = () => {
+  
   return (
     <>
       <div className="container px-4 py-5">
-        <h2 className="pb-2 border-bottom">Skills</h2>
+        <hr className="py-5 border-bottom"/>
 
         <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
           <div
@@ -63,7 +64,7 @@ const Skills = () => {
                 <p className="d-flex justify-content-around">
                   <SiAngular size={42} /> <SiReact size={42} />{" "}
                   <SiHtml5 size={42} /> <SiCss3 size={42} />{" "}
-                  <SiJavascript size={42} />
+                  <SiJavascript size={42} /> <SiBootstrap size={42}/>
                 </p>
               </div>
 
